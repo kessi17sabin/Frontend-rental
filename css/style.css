@@ -1,0 +1,354 @@
+/*=============================
+		color used
+
+		sky blue : #24c9e2;   =>  hover , buton , nav color
+		purple : #122463;     => text color
+
+
+=============================*/
+
+
+
+
+
+html,
+body{
+	font-family: 'Roboto Slab', serif;
+	height: 100%;
+}
+
+
+/*=============================
+		navbar
+=============================*/
+
+p.nav-up-data {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 3px;
+    text-align: center;
+}
+
+nav.navbar.navbar-default.navbar-up {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    min-height: 26px;
+    background-color: #24c9e2;
+    border-radius: 0;
+    border: 0;
+}
+
+nav.navbar.navbar-default.navbar-modify {
+    background-color: #f9fcfc;
+    margin: 0px 0px;
+    border-radius: 0;
+}
+
+#my-nav ul>li>a>p{
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #000;
+    text-shadow: 0px 0.2px, 0.2px 0px, 0.2px 0.2px;
+}
+
+#my-nav ul>li>a>p:hover{
+	color: #24c9e2;
+}
+
+/*================================================
+				Home
+================================================*/
+
+#home{
+	height: 85%;
+}
+
+#home-cover{
+	height: 100%;
+	background-image: url(../img/home.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+#home-content-box{
+	height: 100%;
+	width: 100%;
+	display: table;
+	background-color: rgba(0,0,0,0.4);
+}
+
+#home-content-box-inner{
+	display: table-cell;
+	vertical-align: middle;	
+}
+
+#home-heading h3{
+	color: #fff;
+	font-size: 55px;
+	font-weight: 700px;
+	margin: 20px 0 20px 0;
+}
+
+/*================================================
+				margin-generic
+================================================*/
+
+.margin-generic{
+	margin: 10px;
+}
+
+/*================================================
+				Buttons
+================================================*/
+
+.btn-blue{
+	background-color: #24c9e2;
+	border-radius: 0;
+	color: #000;
+	border: 2px solid #b5b3b4;
+
+}
+
+
+/*================================================
+				About us
+================================================*/
+
+.about-left-top p{
+	text-align: center;
+    font-size: 25px;
+    text-shadow: 0px 0.2px, 0.2px 0px, 0.2px 0.2px;
+    color: #000;
+}    
+
+.morgan-service{
+	color: #122463;
+}
+
+.about-left-down p{
+	margin-top: 25px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.about-button{
+	text-align: center;
+}
+
+.about-right-text p{
+	text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-shadow: 0px 0.2px, 0.2px 0px, 0.2px 0.2px;
+}
+
+.form-design {
+    background-color: #003333;
+}
+
+.btn-submit{
+	margin: 0px 64px;
+    width: 60%;
+}
+
+#about-down{
+	margin-top: 20px;
+}
+
+#about-img-design{
+	height: 40%;
+	background-image: url(../img/about.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+#about-img{
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.about-down-up-text{
+	margin: 10px;
+}
+
+.about-down-up-text p {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.about-down-down-text p {
+	text-align: center;
+	color: #fff;
+    font-size: 18px;
+}
+
+/*================================================
+			services
+================================================*/
+
+.heading-all{
+	font-size: 28px;
+    text-align: center;
+    margin: 30px;
+}
+
+.thumbnail-style{
+    border: 0;
+}
+
+.thumbnail-heading p{
+	font-size: 17px;
+	text-transform: uppercase;
+    text-align: left;
+
+}
+
+.caption p{
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.caption a{
+	letter-spacing: 1px;
+}
+
+
+#services-down{
+	margin-top: 20px;
+
+}
+
+#service-img-design{
+	height: 60%;
+	background-image: url(../img/about.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+#service-img{
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.service-data{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+p.heading-service{
+	color: #fff;
+	font-size: 17px;
+}
+
+p.service-text{
+	color: #fff;
+	font-size: 13px;
+
+}
+
+.service-data p>i{
+	color: #fff;
+	font-size: 22px;
+}
+
+.btn-work{
+	padding: 0;
+    margin: 0 5px;
+    border: 2px solid #000;
+    height: 27px;
+}
+
+.btn-work-active{
+	padding: 0;
+    margin: 0 5px;
+    border: 2px solid #24c9e2;
+    height: 27px;
+}
+
+.nav-tabs{
+	border-bottom: 0px;
+	margin-bottom: 30px;
+}
+
+.tab-style{
+	text-align: center;
+}
+
+.tab-style ul>li>a {
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #000;
+	padding: 0;
+	text-align: center;
+}
+
+/*================================================
+			works
+================================================*/
+
+.tab-style{
+	border: 0;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.tab-pane-style{
+	padding: 6px 6px;
+}
+
+.btn-dark{
+	background-color: #1c1716;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-style{
+	height: 50px;
+	background-color: #0c5254;
+}
+
+.footer-style p{
+	color: #fff;
+	padding-top: 16px;
+    font-size: 13px;
+}
+
+/*================================================
+			footer
+================================================*/
+
+#contact-img-design{
+	height: 100%;
+	background-image: url(../img/contact1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+#contact-img{
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+}
+
+#contact{
+	height: 100%;
+}
+
+footer{
+	margin-top: 20px;
+	height: 100%;
+}
+
+.contact-head p{
+
+}
+
